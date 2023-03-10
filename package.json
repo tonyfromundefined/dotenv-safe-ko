@@ -1,5 +1,5 @@
 {
-  "name": "dotenv-safe",
+  "name": "dotenv-safe-ko",
   "version": "8.2.1",
   "description": "Load environment variables from .env and ensure they are defined",
   "keywords": [
@@ -15,7 +15,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rolodato/dotenv-safe.git"
+    "url": "git://github.com/tonyfromundefined/dotenv-safe-ko.git"
   },
   "scripts": {
     "pretest": "./node_modules/eslint/bin/eslint.js index.js config.js MissingEnvVarsError.js test/.",
