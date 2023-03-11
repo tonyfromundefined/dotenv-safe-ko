@@ -30,7 +30,7 @@ export function config(options?: ConfigOptions) {
 
   if (missingVars.length > 0) {
     // eslint-disable-next-line
-    const message = `[error] 아래 환경변수가 ${chalk.bold.blue(`"${exampleEnvPath}"`)} 파일에 선언되어 있지만, 현재 환경에서 찾을 수 없어요. 필요한 환경변수를 담고있는 ${chalk.bold.blue(`".env"`)} 파일을 프로젝트 루트에 작성해주시거나 현재 환경 안에 환경변수로 아래 변수들을 추가해주세요.`;
+    const message = `[error] 아래 환경변수가 ${chalk.bold.blue(`"${exampleEnvPath}"`)} 파일에 선언되어 있지만, 현재 환경에서 찾을 수 없어요. 필요한 환경변수를 담고있는 ${chalk.bold.blue(`".env"`)} 파일을 프로젝트 루트에 작성해주시거나, 현재 환경 안에 환경변수로 아래 변수들을 추가해주세요.`;
     console.error(chalk.red(message));
     console.error(missingVars.map((v) => `  - ${v}`).join("\n") + "\n");
 
