@@ -1,6 +1,6 @@
 {
   "name": "dotenv-safe-ko",
-  "version": "100.0.1",
+  "version": "100.0.2",
   "type": "module",
   "exports": {
     ".": "./dist/index.mjs",
@@ -20,11 +20,9 @@
   },
   "dependencies": {
     "chalk": "^5.2.0",
-    "dotenv": "^16.0.3",
-    "lodash-es": "^4.17.21"
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
-    "@types/lodash-es": "^4.17.6",
     "@types/node": "^18.15.0",
     "nanobundle": "^1.5.0",
     "rimraf": "^4.4.0",

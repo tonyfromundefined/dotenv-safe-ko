@@ -28,11 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@types/lodash-es", "npm:4.17.6"],\
             ["@types/node", "npm:18.15.0"],\
             ["chalk", "npm:5.2.0"],\
             ["dotenv", "npm:16.0.3"],\
-            ["lodash-es", "npm:4.17.21"],\
             ["nanobundle", "virtual:9b4440cc005e11b836e4322bac94edd11e1971d6b8ff4fb4c7fe60427579fcbd4cd50e296ee876b174e5557965d5fb80158f605017e76687a55b552c7ee30576#npm:1.5.0"],\
             ["rimraf", "npm:4.4.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
@@ -321,25 +319,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nodelib/fs.walk", "npm:1.2.8"],\
             ["@nodelib/fs.scandir", "npm:2.1.5"],\
             ["fastq", "npm:1.15.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/lodash", [\
-        ["npm:4.14.191", {\
-          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.191-67a04a969b-ba0d5434e1.zip/node_modules/@types/lodash/",\
-          "packageDependencies": [\
-            ["@types/lodash", "npm:4.14.191"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@types/lodash-es", [\
-        ["npm:4.17.6", {\
-          "packageLocation": "./.yarn/cache/@types-lodash-es-npm-4.17.6-fd5abbdc74-9bd239dd52.zip/node_modules/@types/lodash-es/",\
-          "packageDependencies": [\
-            ["@types/lodash-es", "npm:4.17.6"],\
-            ["@types/lodash", "npm:4.14.191"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -652,11 +631,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["dotenv-safe-ko", "workspace:."],\
-            ["@types/lodash-es", "npm:4.17.6"],\
             ["@types/node", "npm:18.15.0"],\
             ["chalk", "npm:5.2.0"],\
             ["dotenv", "npm:16.0.3"],\
-            ["lodash-es", "npm:4.17.21"],\
             ["nanobundle", "virtual:9b4440cc005e11b836e4322bac94edd11e1971d6b8ff4fb4c7fe60427579fcbd4cd50e296ee876b174e5557965d5fb80158f605017e76687a55b552c7ee30576#npm:1.5.0"],\
             ["rimraf", "npm:4.4.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=23ec76"],\
@@ -1085,15 +1062,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["locate-path", "npm:7.2.0"],\
             ["p-locate", "npm:6.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["lodash-es", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-es-npm-4.17.21-b45832dfce-05cbffad6e.zip/node_modules/lodash-es/",\
-          "packageDependencies": [\
-            ["lodash-es", "npm:4.17.21"]\
           ],\
           "linkType": "HARD"\
         }]\
