@@ -1,0 +1,36 @@
+{
+  "name": "dotenv-safe-ko",
+  "version": "100.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./config": "./dist/config.mjs"
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "nanobundle build",
+    "clean": "nanobundle clean && yarn rimraf ./node_modules",
+    "test": "vitest run ./src"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "dotenv": "^16.0.3",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "@types/node": "^18.15.0",
+    "nanobundle": "^1.5.0",
+    "rimraf": "^4.4.0",
+    "typescript": "^4.9.5",
+    "ultra-runner": "^3.10.5",
+    "watchlist": "^0.3.1"
+  },
+  "packageManager": "yarn@3.4.1"
+}
