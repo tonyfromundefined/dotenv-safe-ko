@@ -1,7 +1,6 @@
 {
   "name": "dotenv-safe-ko",
-  "version": "100.0.3",
-  "type": "module",
+  "version": "100.0.4",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -14,7 +13,7 @@
       "import": "./dist/config.mjs"
     }
   },
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
